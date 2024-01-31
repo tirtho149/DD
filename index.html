@@ -1,0 +1,39 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drowsiness Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Drowsiness Detection Webpage</h1>
+    <button id="startButton">Start Training</button>
+    <button id="pauseButton">Pause Training</button>
+    <button id="stopButton">Stop Training</button>
+    <div id="result"></div>
+
+    <script src="speech_recognition_module.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
